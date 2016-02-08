@@ -1,0 +1,31 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,200);
+* {
+  margin: 0;
+  padding: 0; }
+
+form {
+  width: 100%;
+  margin: auto;
+  padding: 0px;
+  text-align: center;
+  background: #2D2D2D;
+  position: relative;
+  top: 60px; }
+
+.search {
+  width: 440px;
+  height: 20px;
+  margin-right: 0px;
+  padding: 5px;
+  background: #2D2D2D;
+  font-family: "Roboto", "Consolas", "Helvetica", sans-serif;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  color: #7d7d7d;
+  opacity: .5;
+  border: 2.5px solid #7d7d7d; }
+  .search:hover {
+    border: 2.5px solid #8f8f8f; }
+  .search:focus {
+    outline: none;
+    border: 2.5px solid #8f8f8f; }
