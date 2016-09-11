@@ -1,70 +1,68 @@
 <!DOCTYPE html>
 <html>
     <!--
-        Contact: <mvdw at airmail dot cc>
-        Source: https://github.com/Imakethings/.files/blob/master/http/index.html
-        
-        Something I made in roughly 10 minutes because I couldn't find anything
-        to fit my needs. Goes fairly well with the firefox theme listed in the
-        same directory.
+       This i a person homepage that I made with code i stole mostly from /r/startpages as 
+       well as from other places. I don't take credit for anything except putting the pieces 
+       together. 
     -->
 	<head>
         <meta charset="utf-8" />
-		<title>New Tab</title>
-        
-        <link rel="stylesheet" href="./font-awesome-4.5.0/css/font-awesome.min.css">
-
+		<title>meme machine</title>
+        <link rel="stylesheet" type='text/css' href="./font-awesome-4.5.0/css/font-awesome.min.css">     
+        <link rel="stylesheet" type="text/css" href="css/homepage.css"/> 
+        <script src="./js/weather.js" type="text/javascript">
+        </script> 
     </head>
 	<body>
-        <style type="text/css" media="screen">
+        <style type="text/css" media="all">
             @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
             html, body
             { margin:0; padding:0; }
-
             html, body
-            { background:#170F0D; }
-
+            { background:#2D2D2D; }
             .row
-            { text-align: center; margin-top: 250px;}
+            { text-align:center; margin-top: 250px;}
             .row .column 
-            { display: inline; letter-spacing:1em; }
+            { display: inline; letter-spacing:0.5em; }
             .row .column a
-            { font-size: 512%; color:rgba(0,0,0,0) }
+            { font-size: 250%; color:rgba(0,0,0,0) }
             .row .column a:not(:hover)
             { opacity:.5; transition: opacity .5s; }
 
-            .vk       i{color:#AD6A72;}
-            .twitter  i{color:#A2B07F;}
-            .github   i{color:#829BA8;}
-            .stack    i{color:#D1C894;}
-            .heart    i{color:#AD748E;}
-            .leaf     i{color:#7D9B90;}
+            .envelope       i{color:#78C5D7;}
+            .youtube-play   i{color:#459BA8;}
+            .github         i{color:#79C268;}
+            .usd            i{color:#C5D747;}
+            .reddit-alien   i{color:#F5D63D;}
+            .leaf           i{color:#F48C33;}
+            .lastfm         i{color:#E868A3;}
+            .envelope1      i{color:#BF63A6;}
         </style>
-
+        <!--<div id="weather"></div> -->
         <div class="row">
             <div class="column">
-                <a href="http://vk.com" class="vk">
-                    <i class="fa fa-vk"></i>
+                <a href="https://mail.google.com/mail/u/1/#inbox" class="envelope">
+                    <i class="fa fa-envelope"></i>
                 </a>
             </div>
             <div class="column">
-                <a href="http://twitter.com" class="twitter">
-                    <i class="fa fa-twitter"></i>
+                <a href="https://www.youtube.com/feed/subscriptions" class="youtube-play">
+                    <i class="fa fa-youtube-play"></i>
                 </a>
             </div>
             <div class="column">
-                <a href="http://github.com" class="github">
+                <a href="https://github.com/allgenesconsidered" class="github">
                     <i class="fa fa-github"></i>
                 </a>
             </div>
             <div class="column">
-                <a href="http://stackoverflow.com" class="stack">
-                    <i class="fa fa-stack-overflow"></i>
+                <a href="https://www.patelco.org/" class="usd">
+                    <i class="fa fa-usd"></i>
                 </a>
             </div>
             <div class="column">
-                <a href="http://exhentai.org" class="heart">
-                    <i class="fa fa-heart"></i>
+                <a href="https://www.reddit.com/" class="reddit-alien">
+                    <i class="fa fa-reddit-alien"></i>
                 </a>
             </div>
             <div class="column">
@@ -72,6 +70,25 @@
                     <i class="fa fa-leaf"></i>
                 </a>
             </div>
+            <div class="column">
+                <a href="'http://www.last.fm/user/njnoise'" class="lastfm">
+                    <i class="fa fa-lastfm"></i>
+                </a>
+            </div>
+            <div class="column">
+                <a href="https://mail.google.com/mail/u/2/#inbox" class="envelope1">
+                    <i class="fa fa-envelope"></i>
+                </a>
+            </div>
         </div>
+            <div>
+                <form method="get" action="http://www.ncbi.nlm.nih.gov/pubmed/?"> 
+                    <input class='search' name='term' type='text' placeholder='PubMed'/> 
+                </form>
+                <BR>&nbsp;<BR>
+                <form method="get" action="https://duckduckgo.com/?"> 
+                    <input class='search' name='q' type='text' placeholder='DuckDuckGo'/> 
+                </form>
+            </div>
 	</body>
 </html>

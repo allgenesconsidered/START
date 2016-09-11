@@ -9,7 +9,7 @@ form {
   margin: auto;
   padding: 0px;
   text-align: center;
-  background: #2D2D2D;
+  background: #202020;
   position: relative;
   top: 60px; }
 
@@ -18,7 +18,7 @@ form {
   height: 20px;
   margin-right: 0px;
   padding: 5px;
-  background: #2D2D2D;
+  background: #202020;
   font-family: "Roboto", "Consolas", "Helvetica", sans-serif;
   font-size: 12px;
   letter-spacing: 0.5px;
